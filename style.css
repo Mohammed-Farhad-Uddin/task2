@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+    box-sizing: content-box;
+    max-width: 100%;
+}
+
+footer>div>img,
+.navbar-brand>img {
+    width: 80px;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: black;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: black;
+}
+
+form{
+    margin-top:40px;
+}
+.form-control{
+    width: 50%;
+}
+textarea{
+    border-color: rgba(63, 61, 61, 0.267);
+    border-radius:5px;
+}
+a{
+ text-decoration: none;   
+ color: black;
+}
+a:hover{
+    text-decoration: none; 
+    color: black;
+}
